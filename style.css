@@ -1,0 +1,14 @@
+body {
+  font-family: 'Bad Script', cursive;
+  color: #212c32;
+  background: url(images/mountains.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
