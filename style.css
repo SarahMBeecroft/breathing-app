@@ -65,21 +65,6 @@ h1 {
   border-radius: 50%;
 }
 
-.pointer-container {
-  position: absolute;
-  top: -40px;
-  left: 140px;
-  width: 20px;
-  height: 190px;
-}
-
-.pointer {
-  background-color: #f8d769;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  display: block;
-}
 .pointer {
   background-color: #f8d769;
   border-radius: 50%;
@@ -155,5 +140,14 @@ h1 {
   .gradient-circle {
     height: 270px;
     width: 270px;
+  }
+
+  .pointer-container {
+    position: absolute;
+    left: 120px;
+    width: 20px;
+    height: 170px;
+    animation: rotate 7.5s linear forwards infinite;
+    transform-origin: bottom center;
   }
 }
