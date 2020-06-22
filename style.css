@@ -136,3 +136,24 @@ h1 {
     transform: scale(1);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 6em;
+  }
+  .gradient-circle {
+    height: 270px;
+    width: 270px;
+  }
+}
